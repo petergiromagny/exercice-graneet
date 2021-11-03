@@ -1,0 +1,1 @@
+cd exercices_algo && yarn

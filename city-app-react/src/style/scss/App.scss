@@ -1,0 +1,31 @@
+// Mixin
+@mixin normalText() {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+// Imports
+@import './colors';
+
+h1,
+h2 {
+  color: $text-dark;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p,
+span {
+  color: $text-light;
+  @include normalText();
+}
+
+#app__container {
+  background-color: $background;
+  height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

@@ -1,0 +1,1 @@
+cd city-app-react && yarn start

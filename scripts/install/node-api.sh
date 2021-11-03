@@ -1,0 +1,1 @@
+cd city-app && yarn

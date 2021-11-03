@@ -1,0 +1,17 @@
+{
+  "name": "exercices_algo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Peter",
+  "license": "MIT",
+  "scripts": {
+    "firstAlgo": "node first_algo.js",
+    "secondAlgo": "node second_algo.js",
+    "thirdAlgo": "node third_algo.js",
+    "start": "node result_algo.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

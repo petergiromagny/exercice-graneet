@@ -1,0 +1,14 @@
+{
+  "name": "repo-graneet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Peter Giromagny",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently -c \"bgGreen.bold\" \"./scripts/start/node-algo.sh\" \"./scripts/start/node-app.sh\" \"./scripts/start/node-api.sh\"",
+    "install": "concurrently -c \"bgGreen.bold\" \"./scripts/install/node-algo.sh\" \"./scripts/install/node-app.sh\" \"./scripts/install/node-api.sh\""
+  },
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
